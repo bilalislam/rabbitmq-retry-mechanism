@@ -1,0 +1,58 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "D:\\devops\\rabbit\\retry-schedule\\DelayRetrySchedule\\Bus\\Bus.csproj",
+    "projectName": "Bus",
+    "projectPath": "D:\\devops\\rabbit\\retry-schedule\\DelayRetrySchedule\\Bus\\Bus.csproj",
+    "outputPath": "D:\\devops\\rabbit\\retry-schedule\\DelayRetrySchedule\\Bus\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "http://nexus.hepsiburada.com:8081/nexus/service/local/nuget/nuget/": {},
+      "http://nuget.hepsiburada.com/nuget/": {},
+      "https://api.nuget.org/v3/index.json": {},
+      "https://www.postsharp.net/nuget/packages": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "D:\\devops\\rabbit\\retry-schedule\\DelayRetrySchedule\\Domain\\Domain.csproj": {
+            "projectPath": "D:\\devops\\rabbit\\retry-schedule\\DelayRetrySchedule\\Domain\\Domain.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "RabbitMQ.Client": {
+          "target": "Package",
+          "version": "[5.1.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\bislam\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\bislam\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_DelayRetrySchedule.1429880857.00" t="ExcludeRecursive" />
+    <e p="D:\devops\rabbit\retry-schedule\DelayRetrySchedule" t="IncludeFlat">
+      <e p="Bus" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Bus.csproj" t="IncludeRecursive" />
+        <e p="IDispatchedEventBus.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Bus.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Bus.RabbitMq" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Bus.RabbitMq.csproj" t="IncludeRecursive" />
+        <e p="ConnectionPooledObjectPolicy.cs" t="Include" />
+        <e p="DispatchedEventBus.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Bus.RabbitMq.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RabbitmqHelper.cs" t="Include" />
+        <e p="Serializer.cs" t="Include" />
+        <e p="ServiceExtensions.cs" t="Include" />
+      </e>
+      <e p="DelayRetrySchedule.sln" t="IncludeFlat" />
+      <e p="Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Domain.csproj" t="IncludeRecursive" />
+        <e p="IEvent.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OrderCreated.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Worker" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="images" t="Include">
+          <e p="failure_topology.PNG" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Worker.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Readme.md" t="Include" />
+        <e p="Worker.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
