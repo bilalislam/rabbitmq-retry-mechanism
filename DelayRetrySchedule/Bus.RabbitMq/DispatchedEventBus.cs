@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Domain;
+using Domain.Dtos;
 using Microsoft.Extensions.ObjectPool;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
@@ -11,7 +12,7 @@ namespace Bus.RabbitMq
     public class DispatchedEventBus : IDispatchedEventBus
     {
         private string _queueName { get; set; }
-        
+
         private readonly ObjectPool<IConnection> _connectionPool;
 
         public DispatchedEventBus(IPooledObjectPolicy<IConnection> objectPolicy)
@@ -109,31 +110,33 @@ namespace Bus.RabbitMq
 
         public IDispatchedEventBus CreateQueueTopology(string queueName)
         {
-            string retryQueue = $"{queueName}.retry";
-            string delayQueue = $"{queueName}.delay";
-            string retryExhange = "Exchange.retry";
+            var queue = Queue.Load(queueName, new ExchangeDto()
+            {
+                ExhangeName = "Exchange",
+                ExchangeType = "topic"
+            });
 
             using (var model = _connectionPool.Get().CreateModel())
             {
                 model.ExchangeDeclare("Exchange", "topic", true, false, null);
-                model.ExchangeDeclare(retryExhange, "topic", true);
+                model.ExchangeDeclare(queue.RetryExchange, "topic", true);
 
                 model.QueueDeclare(queueName, true, false, false, new Dictionary<string, object>()
                 {
-                    {"x-dead-letter-exchange", retryExhange},
-                    {"x-dead-letter-routing-key", retryQueue},
+                    {"x-dead-letter-exchange", queue.RetryExchange},
+                    {"x-dead-letter-routing-key", queue.RetryQueue},
                 });
 
-                model.QueueDeclare(retryQueue, true, false, false, new Dictionary<string, object>()
+                model.QueueDeclare(queue.RetryQueue, true, false, false, new Dictionary<string, object>()
                 {
                     {"x-dead-letter-exchange", "Exchange"},
                     {"x-dead-letter-routing-key", queueName},
                 });
 
                 model.QueueBind(queueName, "Exchange", queueName);
-                model.QueueBind(retryQueue, retryExhange, retryQueue);
+                model.QueueBind(queue.RetryQueue, queue.RetryExchange, queue.RetryQueue);
 
-                model.QueueDeclare(delayQueue, true, false, false,
+                model.QueueDeclare(queue.DelayQueue, true, false, false,
                     new Dictionary<string, object>()
                     {
                         {"x-dead-letter-exchange", ""},
@@ -141,10 +144,10 @@ namespace Bus.RabbitMq
                         {"x-message-ttl", 3000}
                     });
 
-                model.QueueBind(delayQueue, "Exchange", delayQueue);
+                model.QueueBind(queue.DelayQueue, "Exchange", queue.DelayQueue);
             }
 
-            this._queueName = queueName;
+            this._queueName = queue.QueueName;
             return this;
         }
 

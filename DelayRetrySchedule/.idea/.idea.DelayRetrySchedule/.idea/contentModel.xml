@@ -48,6 +48,11 @@
       <e p="Domain" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Domain.csproj" t="IncludeRecursive" />
+        <e p="Dtos" t="Include">
+          <e p="ExchangeDto.cs" t="Include" />
+          <e p="QueueDto.cs" t="Include" />
+        </e>
+        <e p="Exhange.cs" t="Include" />
         <e p="IEvent.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -57,6 +62,7 @@
           </e>
         </e>
         <e p="OrderCreated.cs" t="Include" />
+        <e p="Queue.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
