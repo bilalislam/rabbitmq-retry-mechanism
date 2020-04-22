@@ -18,7 +18,6 @@ Dead-lettered messages are routed to their dead letter exchange either:
 
 - with the routing key specified for the queue they were on; or, if this was not set,
 - with the same routing keys they were originally published with
-- 
 
 Messages from a queue can be ‘dead-lettered’; that is, republished to another exchange when any of the following events occur:
 
