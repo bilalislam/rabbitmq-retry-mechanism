@@ -18,7 +18,6 @@ Dead-lettered messages are routed to their dead letter exchange either:
 
 - with the routing key specified for the queue they were on; or, if this was not set,
 - with the same routing keys they were originally published with
-- 
 
 Messages from a queue can be ‘dead-lettered’; that is, republished to another exchange when any of the following events occur:
 
@@ -27,6 +26,13 @@ Messages from a queue can be ‘dead-lettered’; that is, republished to anothe
 - The queue length limit is exceeded.
 
 PS: You can set requeue is true to activate routing key on dead letter queue. After retry count, false is drawn and permanence is achieved and not requeued again. If we added ttl on the Retry queue, it would go into an infinite loop event set requeue is false.Because the message will dispose end of tll. Therefore, by creating a queue named delay, the retry machine is provided to work like a job.
+
+
+## How to setup rabbitmq cluster
+
+```sh
+vagrant up
+```
 
 
 sample queue topology 
@@ -57,19 +63,17 @@ public IDispatchedEventBus CreateQueueTopology(string queueName)
 
         model.QueueBind(queueName, _options.TopicExchangeName, queueName);
         model.QueueBind(retryQueue, retryExhange, retryQueue);
+        
+        model.QueueDeclare(delayQueue, true, false, false,
+            new Dictionary<string, object>()
+            {
+                {"x-dead-letter-exchange", _options.TopicExchangeName},
+                {"x-dead-letter-routing-key", queueName},
+                {"x-message-ttl", _options.Ttl}
+            });
 
-        if (_options.UseScheduler)
-        {
-            model.QueueDeclare(delayQueue, true, false, false,
-                new Dictionary<string, object>()
-                {
-                    {"x-dead-letter-exchange", _options.TopicExchangeName},
-                    {"x-dead-letter-routing-key", queueName},
-                    {"x-message-ttl", _options.Ttl}
-                });
-
-            model.QueueBind(delayQueue, _options.TopicExchangeName, delayQueue);
-        }
+        model.QueueBind(delayQueue, _options.TopicExchangeName, delayQueue);
+        
     }
 
     return this;
