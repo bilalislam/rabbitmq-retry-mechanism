@@ -64,19 +64,17 @@ public IDispatchedEventBus CreateQueueTopology(string queueName)
 
         model.QueueBind(queueName, _options.TopicExchangeName, queueName);
         model.QueueBind(retryQueue, retryExhange, retryQueue);
+        
+        model.QueueDeclare(delayQueue, true, false, false,
+            new Dictionary<string, object>()
+            {
+                {"x-dead-letter-exchange", _options.TopicExchangeName},
+                {"x-dead-letter-routing-key", queueName},
+                {"x-message-ttl", _options.Ttl}
+            });
 
-        if (_options.UseScheduler)
-        {
-            model.QueueDeclare(delayQueue, true, false, false,
-                new Dictionary<string, object>()
-                {
-                    {"x-dead-letter-exchange", _options.TopicExchangeName},
-                    {"x-dead-letter-routing-key", queueName},
-                    {"x-message-ttl", _options.Ttl}
-                });
-
-            model.QueueBind(delayQueue, _options.TopicExchangeName, delayQueue);
-        }
+        model.QueueBind(delayQueue, _options.TopicExchangeName, delayQueue);
+        
     }
 
     return this;
