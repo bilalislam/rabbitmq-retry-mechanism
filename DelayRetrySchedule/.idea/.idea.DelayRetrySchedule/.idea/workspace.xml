@@ -69,7 +69,6 @@
         <option value="$PROJECT_DIR$/Bus.RabbitMq/Class1.cs" />
         <option value="$PROJECT_DIR$/Domain/Class1.cs" />
         <option value="$PROJECT_DIR$/Domain/IEvent.cs" />
-        <option value="$PROJECT_DIR$/Bus.RabbitMq/ConnectionPooledObjectPolicy.cs" />
         <option value="$PROJECT_DIR$/Bus.RabbitMq/Bus.RabbitMq.csproj" />
         <option value="$PROJECT_DIR$/Bus.RabbitMq/Serializer.cs" />
         <option value="$PROJECT_DIR$/Bus.RabbitMq/RabbitmqHelper.cs" />
@@ -87,9 +86,10 @@
         <option value="$PROJECT_DIR$/Domain/AggregationRoot/Queue.cs" />
         <option value="$PROJECT_DIR$/Domain/BoundedContext/Exhange.cs" />
         <option value="$PROJECT_DIR$/Domain/Dtos/ExchangeDto.cs" />
-        <option value="$PROJECT_DIR$/Bus.RabbitMq/DispatchedEventBus.cs" />
         <option value="$PROJECT_DIR$/Domain/Queue.cs" />
         <option value="$PROJECT_DIR$/Domain/Exhange.cs" />
+        <option value="$PROJECT_DIR$/Bus.RabbitMq/ConnectionPooledObjectPolicy.cs" />
+        <option value="$PROJECT_DIR$/Bus.RabbitMq/DispatchedEventBus.cs" />
       </list>
     </option>
   </component>

@@ -118,8 +118,8 @@ namespace Bus.RabbitMq
 
             using (var model = _connectionPool.Get().CreateModel())
             {
-                model.ExchangeDeclare("Exchange", "topic", true, false, null);
-                model.ExchangeDeclare(queue.RetryExchange, "topic", true);
+                model.ExchangeDeclare(queue.Exhange.ExchangeName, queue.Exhange.ExchangeType, true, false, null);
+                model.ExchangeDeclare(queue.RetryExchange, queue.Exhange.ExchangeType, true);
 
                 model.QueueDeclare(queueName, true, false, false, new Dictionary<string, object>()
                 {
@@ -129,18 +129,18 @@ namespace Bus.RabbitMq
 
                 model.QueueDeclare(queue.RetryQueue, true, false, false, new Dictionary<string, object>()
                 {
-                    {"x-dead-letter-exchange", "Exchange"},
-                    {"x-dead-letter-routing-key", queueName},
+                    {"x-dead-letter-exchange", queue.Exhange.ExchangeName},
+                    {"x-dead-letter-routing-key", queue.QueueName},
                 });
 
-                model.QueueBind(queueName, "Exchange", queueName);
+                model.QueueBind(queue.QueueName, "Exchange", queue.QueueName);
                 model.QueueBind(queue.RetryQueue, queue.RetryExchange, queue.RetryQueue);
 
                 model.QueueDeclare(queue.DelayQueue, true, false, false,
                     new Dictionary<string, object>()
                     {
-                        {"x-dead-letter-exchange", ""},
-                        {"x-dead-letter-routing-key", queueName},
+                        {"x-dead-letter-exchange", queue.RetryExchange},
+                        {"x-dead-letter-routing-key", queue.QueueName},
                         {"x-message-ttl", 3000}
                     });
 
