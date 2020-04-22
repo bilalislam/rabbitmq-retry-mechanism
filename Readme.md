@@ -29,6 +29,13 @@ Messages from a queue can be ‘dead-lettered’; that is, republished to anothe
 PS: You can set requeue is true to activate routing key on dead letter queue. After retry count, false is drawn and permanence is achieved and not requeued again. If we added ttl on the Retry queue, it would go into an infinite loop event set requeue is false.Because the message will dispose end of tll. Therefore, by creating a queue named delay, the retry machine is provided to work like a job.
 
 
+## How to setup rabbitmq cluster
+
+```sh
+vagrant up
+```
+
+
 sample queue topology 
 
 ``` dotnet
