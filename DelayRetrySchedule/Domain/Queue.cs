@@ -8,7 +8,7 @@ namespace Domain
         public string QueueName { get; private set; }
 
         //Bounded Context
-        public Exhange Exhange { get; private set; }
+        public Exchange Exhange { get; private set; }
 
         public string RetryExchange => GetRetryExchangeName();
         public string DelayQueue => GetDelayQueueName();
@@ -31,7 +31,7 @@ namespace Domain
             return $"{QueueName}.retry";
         }
 
-        private Queue(string queuue, Exhange exhange)
+        private Queue(string queuue, Exchange exhange)
         {
             QueueName = queuue;
             Exhange = exhange;
@@ -54,7 +54,7 @@ namespace Domain
 
             return new Queue(
                 queueName,
-                Exhange.Load(exhange.ExhangeName, exhange.ExchangeType));
+                Exchange.Load(exhange.ExhangeName, exhange.ExchangeType));
         }
     }
 }

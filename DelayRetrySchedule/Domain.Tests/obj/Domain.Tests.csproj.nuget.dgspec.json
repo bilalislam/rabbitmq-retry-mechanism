@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain.Tests\\Domain.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain.Tests\\Domain.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain.Tests\\Domain.Tests.csproj",
+        "projectName": "Domain.Tests",
+        "projectPath": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain.Tests\\Domain.Tests.csproj",
+        "packagesPath": "C:\\Users\\bislam\\.nuget\\packages\\",
+        "outputPath": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bislam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nexus.hepsiburada.com:8081/nexus/service/local/nuget/nuget/": {},
+          "http://nuget.hepsiburada.com/nuget/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.postsharp.net/nuget/packages": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[28.4.1, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.9.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\bislam\\.nuget\\packages\\",
+        "outputPath": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bislam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nexus.hepsiburada.com:8081/nexus/service/local/nuget/nuget/": {},
+          "http://nuget.hepsiburada.com/nuget/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.postsharp.net/nuget/packages": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bus.RabbitMq", "Bus.RabbitM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{C889887A-6BDB-4296-9197-354C0C787F7C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Tests", "Domain.Tests\Domain.Tests.csproj", "{ADA2B3A7-C780-4269-8031-719E190574CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{C889887A-6BDB-4296-9197-354C0C787F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C889887A-6BDB-4296-9197-354C0C787F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C889887A-6BDB-4296-9197-354C0C787F7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA2B3A7-C780-4269-8031-719E190574CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA2B3A7-C780-4269-8031-719E190574CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA2B3A7-C780-4269-8031-719E190574CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA2B3A7-C780-4269-8031-719E190574CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

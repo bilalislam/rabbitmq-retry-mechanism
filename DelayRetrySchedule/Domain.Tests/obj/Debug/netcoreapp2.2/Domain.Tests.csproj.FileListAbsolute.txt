@@ -1,0 +1,17 @@
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\bin\Debug\netcoreapp2.2\Domain.Tests.deps.json
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\bin\Debug\netcoreapp2.2\Domain.Tests.runtimeconfig.json
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\bin\Debug\netcoreapp2.2\Domain.Tests.runtimeconfig.dev.json
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\bin\Debug\netcoreapp2.2\Domain.Tests.dll
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\bin\Debug\netcoreapp2.2\Domain.Tests.pdb
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\bin\Debug\netcoreapp2.2\Domain.dll
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\bin\Debug\netcoreapp2.2\Domain.pdb
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\obj\Debug\netcoreapp2.2\Domain.Tests.csprojAssemblyReference.cache
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\obj\Debug\netcoreapp2.2\Domain.Tests.csproj.CoreCompileInputs.cache
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\obj\Debug\netcoreapp2.2\Domain.Tests.AssemblyInfoInputs.cache
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\obj\Debug\netcoreapp2.2\Domain.Tests.AssemblyInfo.cs
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\obj\Debug\netcoreapp2.2\Domain.Tests.csproj.CopyComplete
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\obj\Debug\netcoreapp2.2\Domain.Tests.dll
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Domain.Tests\obj\Debug\netcoreapp2.2\Domain.Tests.pdb
