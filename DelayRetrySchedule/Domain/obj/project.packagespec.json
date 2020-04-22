@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\devops\\rabbit\\retry-schedule\\DelayRetrySchedule\\Domain\\Domain.csproj",
+    "projectUniqueName": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\Domain.csproj",
     "projectName": "Domain",
-    "projectPath": "D:\\devops\\rabbit\\retry-schedule\\DelayRetrySchedule\\Domain\\Domain.csproj",
-    "outputPath": "D:\\devops\\rabbit\\retry-schedule\\DelayRetrySchedule\\Domain\\obj\\",
+    "projectPath": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\Domain.csproj",
+    "outputPath": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

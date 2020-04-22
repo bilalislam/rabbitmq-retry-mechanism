@@ -1,0 +1,8 @@
+---
+# playbook for rabbitmq role
+- name: rabbitmq playbook
+  hosts: all
+  remote_user: vagrant
+  sudo: true
+  roles:
+    - mq-cluster

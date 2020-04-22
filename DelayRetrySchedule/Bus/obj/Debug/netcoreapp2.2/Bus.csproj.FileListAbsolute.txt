@@ -10,3 +10,15 @@ D:\devops\rabbit\retry-schedule\DelayRetrySchedule\Bus\obj\Debug\netcoreapp2.2\B
 D:\devops\rabbit\retry-schedule\DelayRetrySchedule\Bus\obj\Debug\netcoreapp2.2\Bus.csproj.CopyComplete
 D:\devops\rabbit\retry-schedule\DelayRetrySchedule\Bus\obj\Debug\netcoreapp2.2\Bus.dll
 D:\devops\rabbit\retry-schedule\DelayRetrySchedule\Bus\obj\Debug\netcoreapp2.2\Bus.pdb
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Bus\bin\Debug\netcoreapp2.2\Bus.deps.json
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Bus\bin\Debug\netcoreapp2.2\Bus.dll
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Bus\bin\Debug\netcoreapp2.2\Bus.pdb
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Bus\bin\Debug\netcoreapp2.2\Domain.dll
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Bus\bin\Debug\netcoreapp2.2\Domain.pdb
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Bus\obj\Debug\netcoreapp2.2\Bus.csprojAssemblyReference.cache
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Bus\obj\Debug\netcoreapp2.2\Bus.csproj.CoreCompileInputs.cache
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Bus\obj\Debug\netcoreapp2.2\Bus.AssemblyInfoInputs.cache
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Bus\obj\Debug\netcoreapp2.2\Bus.AssemblyInfo.cs
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Bus\obj\Debug\netcoreapp2.2\Bus.csproj.CopyComplete
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Bus\obj\Debug\netcoreapp2.2\Bus.dll
+D:\devops\rabbit\retry-schedule\rabbitmq-retry-mechanism\DelayRetrySchedule\Bus\obj\Debug\netcoreapp2.2\Bus.pdb

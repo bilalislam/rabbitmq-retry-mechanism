@@ -1,0 +1,26 @@
+- name: "Setting up RabbitMQ Policy for HA"
+  rabbitmq_policy:
+    name: ha-all
+    pattern: ""
+    tags:
+      ha-mode: all
+      ha-sync-mode: automatic
+    priority: 1
+
+- name: "Deleting RabbitMQ User guest"
+  rabbitmq_user:
+    user: guest
+    state: absent
+
+- name: "Setting up RabbitMQ admin"
+  rabbitmq_user:
+    user: alfred
+    password: "{{ rabbitmq_admin_password }}"
+    vhost: /
+    configure_priv: .*
+    read_priv: .*
+    write_priv: .*
+    tags: administrator
+    state: present
+  no_log: True
+  ignore_errors: yes

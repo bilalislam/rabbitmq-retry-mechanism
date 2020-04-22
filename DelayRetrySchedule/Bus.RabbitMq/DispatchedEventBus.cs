@@ -14,9 +14,9 @@ namespace Bus.RabbitMq
         
         private readonly ObjectPool<IConnection> _connectionPool;
 
-        public DispatchedEventBus(ObjectPool<IConnection> pubConnectionPool)
+        public DispatchedEventBus(IPooledObjectPolicy<IConnection> objectPolicy)
         {
-            _connectionPool = pubConnectionPool;
+            _connectionPool = new DefaultObjectPool<IConnection>(objectPolicy);
         }
 
 

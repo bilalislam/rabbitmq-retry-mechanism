@@ -4274,11 +4274,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\devops\\rabbit\\retry-schedule\\DelayRetrySchedule\\Bus\\Bus.csproj",
+      "projectUniqueName": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Bus\\Bus.csproj",
       "projectName": "Bus",
-      "projectPath": "D:\\devops\\rabbit\\retry-schedule\\DelayRetrySchedule\\Bus\\Bus.csproj",
+      "projectPath": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Bus\\Bus.csproj",
       "packagesPath": "C:\\Users\\bislam\\.nuget\\packages\\",
-      "outputPath": "D:\\devops\\rabbit\\retry-schedule\\DelayRetrySchedule\\Bus\\obj\\",
+      "outputPath": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Bus\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4300,8 +4300,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\devops\\rabbit\\retry-schedule\\DelayRetrySchedule\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\devops\\rabbit\\retry-schedule\\DelayRetrySchedule\\Domain\\Domain.csproj"
+            "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\Domain.csproj"
             }
           }
         }
