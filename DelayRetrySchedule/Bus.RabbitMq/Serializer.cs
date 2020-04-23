@@ -18,7 +18,6 @@ namespace Bus.RabbitMq
                 return ms.ToArray();
             }
         }
-
         public T Deserialize<T>(byte[] bytes)
         {
             using (var ms = new MemoryStream(bytes))

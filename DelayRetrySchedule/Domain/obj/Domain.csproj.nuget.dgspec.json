@@ -1,34 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\Domain.csproj": {}
+    "/Users/ninjafx/devops/rabbitmq-retry-mechanism/DelayRetrySchedule/Domain/Domain.csproj": {}
   },
   "projects": {
-    "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\Domain.csproj": {
+    "/Users/ninjafx/devops/rabbitmq-retry-mechanism/DelayRetrySchedule/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\Domain.csproj",
+        "projectUniqueName": "/Users/ninjafx/devops/rabbitmq-retry-mechanism/DelayRetrySchedule/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\bislam\\.nuget\\packages\\",
-        "outputPath": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\obj\\",
+        "projectPath": "/Users/ninjafx/devops/rabbitmq-retry-mechanism/DelayRetrySchedule/Domain/Domain.csproj",
+        "packagesPath": "/Users/ninjafx/.nuget/packages/",
+        "outputPath": "/Users/ninjafx/devops/rabbitmq-retry-mechanism/DelayRetrySchedule/Domain/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\bislam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/ninjafx/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nexus.hepsiburada.com:8081/nexus/service/local/nuget/nuget/": {},
-          "http://nuget.hepsiburada.com/nuget/": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.postsharp.net/nuget/packages": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {

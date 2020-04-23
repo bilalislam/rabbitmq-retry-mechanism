@@ -1,29 +1,22 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain.Tests\\Domain.Tests.csproj",
+    "projectUniqueName": "/Users/ninjafx/devops/rabbitmq-retry-mechanism/DelayRetrySchedule/Domain.Tests/Domain.Tests.csproj",
     "projectName": "Domain.Tests",
-    "projectPath": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain.Tests\\Domain.Tests.csproj",
-    "outputPath": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain.Tests\\obj\\",
+    "projectPath": "/Users/ninjafx/devops/rabbitmq-retry-mechanism/DelayRetrySchedule/Domain.Tests/Domain.Tests.csproj",
+    "outputPath": "/Users/ninjafx/devops/rabbitmq-retry-mechanism/DelayRetrySchedule/Domain.Tests/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.2"
     ],
-    "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-      "http://nexus.hepsiburada.com:8081/nexus/service/local/nuget/nuget/": {},
-      "http://nuget.hepsiburada.com/nuget/": {},
-      "https://api.nuget.org/v3/index.json": {},
-      "https://www.postsharp.net/nuget/packages": {}
-    },
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {
-          "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\Domain.csproj": {
-            "projectPath": "D:\\devops\\rabbit\\retry-schedule\\rabbitmq-retry-mechanism\\DelayRetrySchedule\\Domain\\Domain.csproj"
+          "/Users/ninjafx/devops/rabbitmq-retry-mechanism/DelayRetrySchedule/Domain/Domain.csproj": {
+            "projectPath": "/Users/ninjafx/devops/rabbitmq-retry-mechanism/DelayRetrySchedule/Domain/Domain.csproj"
           }
         }
       }

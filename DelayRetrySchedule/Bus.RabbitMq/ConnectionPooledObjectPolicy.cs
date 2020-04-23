@@ -10,9 +10,6 @@ namespace Bus.RabbitMq
         {
             var factory = new ConnectionFactory
             {
-                HostName = "10.10.1.101",
-                UserName = "alfred",
-                Password = "B@tmanSavesTheW0rld!",
                 AutomaticRecoveryEnabled = true,
                 TopologyRecoveryEnabled = true,
                 NetworkRecoveryInterval = TimeSpan.FromSeconds(5),
