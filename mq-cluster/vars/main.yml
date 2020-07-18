@@ -1,6 +1,6 @@
 ---
 # vars file for mq-cluster
-config_rabbitmq_ha: true
+config_rabbitmq_ha: false
 enable_rabbitmq_clustering: true
 erlang_cookie: LSKNKBELKPSTDBBCHETL
 rabbitmq_config:

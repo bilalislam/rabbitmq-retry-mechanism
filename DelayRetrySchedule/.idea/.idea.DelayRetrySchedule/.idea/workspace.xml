@@ -23,124 +23,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9df47414-1c16-4a8a-b40c-d856421b0c91" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DelayRetrySchedule/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DelayRetrySchedule/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DelayRetrySchedule/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DelayRetrySchedule/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DelayRetrySchedule/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DelayRetrySchedule/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DelayRetrySchedule/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DelayRetrySchedule/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/ConnectionPooledObjectPolicy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/ConnectionPooledObjectPolicy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/DispatchedEventBus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/DispatchedEventBus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/Serializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/Serializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/bin/Debug/netcoreapp2.2/Bus.RabbitMq.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/bin/Debug/netcoreapp2.2/Bus.RabbitMq.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/bin/Debug/netcoreapp2.2/Bus.RabbitMq.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/bin/Debug/netcoreapp2.2/Bus.RabbitMq.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/bin/Debug/netcoreapp2.2/Bus.RabbitMq.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/bin/Debug/netcoreapp2.2/Bus.RabbitMq.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/bin/Debug/netcoreapp2.2/Bus.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/bin/Debug/netcoreapp2.2/Bus.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/bin/Debug/netcoreapp2.2/Bus.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/bin/Debug/netcoreapp2.2/Bus.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/bin/Debug/netcoreapp2.2/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/bin/Debug/netcoreapp2.2/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/bin/Debug/netcoreapp2.2/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/bin/Debug/netcoreapp2.2/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/obj/Bus.RabbitMq.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/obj/Bus.RabbitMq.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/obj/Bus.RabbitMq.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/obj/Bus.RabbitMq.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/obj/Bus.RabbitMq.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/obj/Bus.RabbitMq.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/obj/Bus.RabbitMq.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/obj/Bus.RabbitMq.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/obj/Debug/netcoreapp2.2/Bus.RabbitMq.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/obj/Debug/netcoreapp2.2/Bus.RabbitMq.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/obj/Debug/netcoreapp2.2/Bus.RabbitMq.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/obj/Debug/netcoreapp2.2/Bus.RabbitMq.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/obj/Debug/netcoreapp2.2/Bus.RabbitMq.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/obj/Debug/netcoreapp2.2/Bus.RabbitMq.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/obj/Debug/netcoreapp2.2/Bus.RabbitMq.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/obj/Debug/netcoreapp2.2/Bus.RabbitMq.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/obj/Debug/netcoreapp2.2/Bus.RabbitMq.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/obj/Debug/netcoreapp2.2/Bus.RabbitMq.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/obj/Debug/netcoreapp2.2/Bus.RabbitMq.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/obj/Debug/netcoreapp2.2/Bus.RabbitMq.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/obj/Debug/netcoreapp2.2/Bus.RabbitMq.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/obj/Debug/netcoreapp2.2/Bus.RabbitMq.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/obj/Debug/netcoreapp2.2/Bus.RabbitMq.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus.RabbitMq/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.RabbitMq/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/bin/Debug/netcoreapp2.2/Bus.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/bin/Debug/netcoreapp2.2/Bus.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/bin/Debug/netcoreapp2.2/Bus.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/bin/Debug/netcoreapp2.2/Bus.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/bin/Debug/netcoreapp2.2/Bus.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/bin/Debug/netcoreapp2.2/Bus.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/bin/Debug/netcoreapp2.2/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/bin/Debug/netcoreapp2.2/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/bin/Debug/netcoreapp2.2/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/bin/Debug/netcoreapp2.2/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/obj/Bus.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/obj/Bus.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/obj/Bus.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/obj/Bus.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/obj/Bus.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/obj/Bus.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/obj/Bus.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/obj/Bus.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/obj/Debug/netcoreapp2.2/Bus.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/obj/Debug/netcoreapp2.2/Bus.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/obj/Debug/netcoreapp2.2/Bus.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/obj/Debug/netcoreapp2.2/Bus.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/obj/Debug/netcoreapp2.2/Bus.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/obj/Debug/netcoreapp2.2/Bus.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/obj/Debug/netcoreapp2.2/Bus.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/obj/Debug/netcoreapp2.2/Bus.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/obj/Debug/netcoreapp2.2/Bus.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/obj/Debug/netcoreapp2.2/Bus.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/obj/Debug/netcoreapp2.2/Bus.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/obj/Debug/netcoreapp2.2/Bus.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/obj/Debug/netcoreapp2.2/Bus.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/obj/Debug/netcoreapp2.2/Bus.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/obj/Debug/netcoreapp2.2/Bus.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bus/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Bus/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Bus.RabbitMq.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Bus.RabbitMq.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Bus.RabbitMq.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Bus.RabbitMq.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Bus.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Bus.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Bus.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Bus.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Consumer.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Consumer.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Consumer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Consumer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Consumer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Consumer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Consumer.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Consumer.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Consumer.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Consumer.runtimeconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/bin/Debug/netcoreapp2.2/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/obj/Consumer.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/obj/Consumer.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/obj/Consumer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/obj/Consumer.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/obj/Consumer.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/obj/Consumer.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/obj/Consumer.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/obj/Consumer.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/obj/Debug/netcoreapp2.2/Consumer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/obj/Debug/netcoreapp2.2/Consumer.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/obj/Debug/netcoreapp2.2/Consumer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/obj/Debug/netcoreapp2.2/Consumer.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/obj/Debug/netcoreapp2.2/Consumer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/obj/Debug/netcoreapp2.2/Consumer.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/obj/Debug/netcoreapp2.2/Consumer.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/obj/Debug/netcoreapp2.2/Consumer.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/obj/Debug/netcoreapp2.2/Consumer.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/obj/Debug/netcoreapp2.2/Consumer.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/obj/Debug/netcoreapp2.2/Consumer.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/obj/Debug/netcoreapp2.2/Consumer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/obj/Debug/netcoreapp2.2/Consumer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/obj/Debug/netcoreapp2.2/Consumer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/obj/Debug/netcoreapp2.2/Consumer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/bin/Debug/netcoreapp2.2/Domain.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/bin/Debug/netcoreapp2.2/Domain.Tests.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/bin/Debug/netcoreapp2.2/Domain.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/bin/Debug/netcoreapp2.2/Domain.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/bin/Debug/netcoreapp2.2/Domain.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/bin/Debug/netcoreapp2.2/Domain.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/bin/Debug/netcoreapp2.2/Domain.Tests.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/bin/Debug/netcoreapp2.2/Domain.Tests.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/bin/Debug/netcoreapp2.2/Domain.Tests.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/bin/Debug/netcoreapp2.2/Domain.Tests.runtimeconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/bin/Debug/netcoreapp2.2/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/bin/Debug/netcoreapp2.2/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/bin/Debug/netcoreapp2.2/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/bin/Debug/netcoreapp2.2/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/bin/Debug/netcoreapp2.2/nunit_random_seed.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/obj/Debug/netcoreapp2.2/Domain.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/obj/Domain.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/obj/Domain.Tests.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/obj/Domain.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/obj/Domain.Tests.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/obj/Domain.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/obj/Domain.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/obj/Domain.Tests.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/obj/Domain.Tests.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain.Tests/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/OrderCreated.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/OrderCreated.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/netcoreapp2.2/Domain.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/netcoreapp2.2/Domain.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/netcoreapp2.2/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/netcoreapp2.2/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/netcoreapp2.2/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/netcoreapp2.2/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp2.2/Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp2.2/Domain.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp2.2/Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp2.2/Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp2.2/Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp2.2/Domain.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp2.2/Domain.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp2.2/Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp2.2/Domain.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp2.2/Domain.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp2.2/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp2.2/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp2.2/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netcoreapp2.2/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" afterDir="false" />
-    </list>
+    <list default="true" id="9df47414-1c16-4a8a-b40c-d856421b0c91" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,125 +32,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Consumer/Program.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-              <folding>
-                <marker date="1587642909969" expanded="false" signature="6:92" ph="..." />
-                <marker date="1587642909969" expanded="true" signature="112:563" ph="{...}" />
-                <marker date="1587642909969" expanded="true" signature="132:561" ph="{...}" />
-                <marker date="1587642909969" expanded="true" signature="178:555" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IEvent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Domain/IEvent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-              <folding>
-                <marker date="1587642909992" expanded="true" signature="31:217" ph="{...}" />
-                <marker date="1587642909992" expanded="true" signature="61:215" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderCreated.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Domain/OrderCreated.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <marker date="1587644231689" expanded="false" signature="6:52" ph="..." />
-                <marker date="1587644231689" expanded="true" signature="70:417" ph="{...}" />
-                <marker date="1587644231689" expanded="true" signature="140:199" ph="{...}" />
-                <marker date="1587644231689" expanded="true" signature="233:415" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DispatchedEventBus.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bus.RabbitMq/DispatchedEventBus.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
-              <folding>
-                <marker date="1587645332643" expanded="true" signature="6:202" ph="..." />
-                <marker date="1587645332643" expanded="true" signature="226:7055" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="286:7053" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="489:580" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="802:1464" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="865:1373" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="921:1359" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="1393:1454" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="1536:4339" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="1710:4125" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="2457:2679" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="2700:3415" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="2757:2844" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="2844:2939" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="3616:3915" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="3952:4111" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="4414:6155" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="4492:4588" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="4659:6072" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="4985:5142" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="5268:5431" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="5751:5974" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="6305:6384" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="6550:6851" ph="{...}" />
-                <marker date="1587645332643" expanded="true" signature="6928:7047" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RabbitMqHelper.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bus.RabbitMq/RabbitMqHelper.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-              <folding>
-                <marker date="1587642909952" expanded="false" signature="6:56" ph="..." />
-                <marker date="1587642909952" expanded="true" signature="80:1101" ph="{...}" />
-                <marker date="1587642909952" expanded="true" signature="114:589" ph="{...}" />
-                <marker date="1587642909952" expanded="true" signature="205:583" ph="{...}" />
-                <marker date="1587642909952" expanded="true" signature="427:545" ph="{...}" />
-                <marker date="1587642909952" expanded="true" signature="621:677" ph="{...}" />
-                <marker date="1587642909952" expanded="true" signature="727:1098" ph="{...}" />
-                <marker date="1587642909952" expanded="true" signature="840:1092" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Serializer.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bus.RabbitMq/Serializer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <marker date="1587644205659" expanded="false" signature="6:39" ph="..." />
-                <marker date="1587644205659" expanded="true" signature="63:811" ph="{...}" />
-                <marker date="1587644205659" expanded="true" signature="93:809" ph="{...}" />
-                <marker date="1587644205659" expanded="true" signature="143:488" ph="{...}" />
-                <marker date="1587644205659" expanded="true" signature="201:478" ph="{...}" />
-                <marker date="1587644205659" expanded="true" signature="326:426" ph="{...}" />
-                <marker date="1587644205659" expanded="true" signature="534:803" ph="{...}" />
-                <marker date="1587644205659" expanded="true" signature="700:793" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -353,21 +118,6 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="DelayRetrySchedule (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DelayRetrySchedule (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Bus.RabbitMq" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DelayRetrySchedule (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Consumer" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="DelayRetrySchedule (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Domain" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -432,7 +182,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -441,14 +190,14 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32965517" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.80275863" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.32965517" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2536349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" weight="0.32965517" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.44827586" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44827586" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -753,8 +502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bus.RabbitMq/Serializer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="75">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding>
             <marker date="1587644205659" expanded="false" signature="6:39" ph="..." />
             <marker date="1587644205659" expanded="true" signature="63:811" ph="{...}" />
@@ -768,46 +517,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Consumer/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding>
-            <marker date="1587642909969" expanded="false" signature="6:92" ph="..." />
-            <marker date="1587642909969" expanded="true" signature="112:563" ph="{...}" />
-            <marker date="1587642909969" expanded="true" signature="132:561" ph="{...}" />
-            <marker date="1587642909969" expanded="true" signature="178:555" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Domain/IEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <marker date="1587642909992" expanded="true" signature="31:217" ph="{...}" />
-            <marker date="1587642909992" expanded="true" signature="61:215" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Domain/OrderCreated.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <marker date="1587644231689" expanded="false" signature="6:52" ph="..." />
-            <marker date="1587644231689" expanded="true" signature="70:417" ph="{...}" />
-            <marker date="1587644231689" expanded="true" signature="140:199" ph="{...}" />
-            <marker date="1587644231689" expanded="true" signature="233:415" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bus.RabbitMq/RabbitMqHelper.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="105">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding>
             <marker date="1587642909952" expanded="false" signature="6:56" ph="..." />
@@ -824,8 +536,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bus.RabbitMq/DispatchedEventBus.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+        <state relative-caret-position="225">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <marker date="1587645332643" expanded="true" signature="6:202" ph="..." />
             <marker date="1587645332643" expanded="true" signature="226:7055" ph="{...}" />
@@ -852,6 +564,43 @@
             <marker date="1587645332643" expanded="true" signature="6305:6384" ph="{...}" />
             <marker date="1587645332643" expanded="true" signature="6550:6851" ph="{...}" />
             <marker date="1587645332643" expanded="true" signature="6928:7047" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain/OrderCreated.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <marker date="1587644231689" expanded="false" signature="6:52" ph="..." />
+            <marker date="1587644231689" expanded="true" signature="70:417" ph="{...}" />
+            <marker date="1587644231689" expanded="true" signature="140:199" ph="{...}" />
+            <marker date="1587644231689" expanded="true" signature="233:415" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain/IEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <marker date="1587642909992" expanded="true" signature="31:217" ph="{...}" />
+            <marker date="1587642909992" expanded="true" signature="61:215" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Consumer/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <marker date="1587642909969" expanded="false" signature="6:92" ph="..." />
+            <marker date="1587642909969" expanded="true" signature="112:563" ph="{...}" />
+            <marker date="1587642909969" expanded="true" signature="132:561" ph="{...}" />
+            <marker date="1587642909969" expanded="true" signature="178:555" ph="{...}" />
           </folding>
         </state>
       </provider>

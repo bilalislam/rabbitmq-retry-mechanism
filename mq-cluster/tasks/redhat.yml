@@ -1,0 +1,98 @@
+---
+
+- name: create repo file
+  copy:
+    src: rabbitmq_erlang.repo
+    dest: /etc/yum.repos.d/rabbitmq_erlang.repo
+
+- name: redhat | installing pre-reqs
+  yum:
+    name: ['wget']
+    state: present
+  become: yes
+  register: result
+  until: result is successful
+
+- name: install erlang
+  yum: name=erlang state=latest
+  become: yes
+
+- name: install socat
+  yum: name=socat state=latest
+  become: yes  
+
+- name: install firewalld
+  yum: name=firewalld state=latest
+  become: yes
+
+- name: unmask firewalld
+  shell: systemctl unmask --now firewalld.service
+  become: yes
+
+- name: enable firewalld
+  shell: systemctl enable --now firewalld.service
+  become: yes 
+
+- name: firewalld restart
+  service:
+    name: firewalld
+    state: restarted
+  become: yes 
+
+- name: Download rabbitmq
+  get_url:
+    url: https://github.com/rabbitmq/rabbitmq-server/releases/download/v{{rabbitmq_version}}/rabbitmq-server-{{rabbitmq_version}}-1.el7.noarch.rpm
+    dest: /opt/rabbitmq-server-{{rabbitmq_version}}-1.el7.noarch.rpm
+  become: yes  
+
+- name: install rabbitmq rpm from a local file
+  yum:
+    name: /opt/rabbitmq-server-{{rabbitmq_version}}-1.el7.noarch.rpm
+    state: present
+
+- name: import key
+  shell: rpm --import https://www.rabbitmq.com/rabbitmq-release-signing-key.asc
+  become: yes   
+
+- name: Install package.
+  yum:
+    name: /opt/rabbitmq-server-{{rabbitmq_version}}-1.el7.noarch.rpm
+    state: present
+
+- name: start rabbitmq
+  service:
+    name: rabbitmq-server
+    state: started
+  become: yes
+
+- name: firewalld open 5672
+  shell: firewall-cmd --zone=public --permanent --add-port=5671-5672/tcp
+  become: yes 
+
+- name: firewalld open 15672
+  shell: firewall-cmd --zone=public --permanent --add-port=15672/tcp
+  become: yes
+
+- name: firewalld open 4369
+  shell: firewall-cmd --zone=public --permanent --add-port=4369/tcp
+  become: yes
+
+- name: firewalld open 25672
+  shell: firewall-cmd --zone=public --permanent --add-port=25672/tcp
+  become: yes
+
+- name: firewalld reload
+  shell: firewall-cmd --reload
+  become: yes
+
+- name: enable management plugin
+  shell: rabbitmq-plugins enable rabbitmq_management
+  become: yes 
+
+- name: permission chmod
+  shell: chown -R rabbitmq:rabbitmq /var/lib/rabbitmq/
+  become: yes 
+
+- name: setup nettools
+  command:  yum -y install net-tools
+  become: yes
