@@ -52,3 +52,6 @@ and vagrant provision {node} again
 public network : talk to machine each-other
 private network : just set the ip node in vmbox and use forward port and can access one ip by current machine
 by the way ; It need to public_network for rabbitmq cluster
+
+
+notes : how to set static ip on vagrant ?
