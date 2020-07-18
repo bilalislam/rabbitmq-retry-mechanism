@@ -96,3 +96,7 @@
 - name: setup nettools
   command:  yum -y install net-tools
   become: yes
+
+- name: setup nano
+  command:  yum -y install nano
+  become: yes
