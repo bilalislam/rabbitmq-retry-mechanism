@@ -2,7 +2,7 @@
 
 - name: Copy file with owner and permissions
   copy:
-    src: hosts_{{inventory_hostname}}
+    src: hosts
     dest: /etc/hosts
 
 - name: rabbitmq_clustering | stopping rabbitmq app

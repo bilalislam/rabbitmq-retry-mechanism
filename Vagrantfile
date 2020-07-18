@@ -7,9 +7,9 @@
 VAGRANTFILE_API_VERSION = '2'
 
 BOXES = [
-  { name: :mq1, ip: '10.10.1.101',guest:'15672',host:'15671', },
-  { name: :mq2, ip: '10.10.1.102',guest:'15672',host:'15672', },
-  { name: :mq3, ip: '10.10.1.103',guest:'15672',host:'15673', }
+  { name: :mq1, ip: '192.168.77.10',guest:'15672',host:'15672', },
+  { name: :mq2, ip: '192.168.77.11',guest:'15672',host:'15672', },
+  { name: :mq3, ip: '192.168.77.12',guest:'15672',host:'15672', }
 ]
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
@@ -29,11 +29,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   BOXES.each do |opts|
     config.vm.define opts[:name] do |config|
       config.vm.hostname = opts[:name].to_s
-      config.vm.network "forwarded_port", ip: opts[:ip] , guest: opts[:guest], host: opts[:host]
+      config.vm.network "public_network" , ip: opts[:ip]
+      #config.vm.network "forwarded_port" , guest: opts[:guest], host: opts[:host]
       config.vm.provision "ansible" do |ansible|
          ansible.playbook = "rabbitmq-cluster.yml"
       end
     end
   end
 end
-
