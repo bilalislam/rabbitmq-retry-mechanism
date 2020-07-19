@@ -55,3 +55,4 @@ by the way ; It need to public_network for rabbitmq cluster
 
 
 notes : how to set static ip on vagrant ?
+answer : don't use minimal os :) 

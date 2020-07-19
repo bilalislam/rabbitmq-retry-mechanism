@@ -7,14 +7,15 @@
 VAGRANTFILE_API_VERSION = '2'
 
 BOXES = [
-  { name: :mq1, ip: '192.168.77.10',guest:'15672',host:'15672', },
-  { name: :mq2, ip: '192.168.77.11',guest:'15672',host:'15672', },
-  { name: :mq3, ip: '192.168.77.12',guest:'15672',host:'15672', }
+  { name: :mq1, ip: '10.10.1.101', },
+  { name: :mq2, ip: '10.10.1.102', },
+  { name: :mq2, ip: '10.10.1.103', },
 ]
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.ssh.insert_key = false
-  config.vm.box = 'minimal/centos7'
+  #config.vm.box = 'ubuntu/trusty64'
+  config.vm.box = 'centos/7'
   config.ssh.private_key_path = "~/.vagrant.d/insecure_private_key"
   config.ssh.forward_agent = true
 
@@ -29,8 +30,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   BOXES.each do |opts|
     config.vm.define opts[:name] do |config|
       config.vm.hostname = opts[:name].to_s
-      config.vm.network "public_network" , ip: opts[:ip]
-      #config.vm.network "forwarded_port" , guest: opts[:guest], host: opts[:host]
+      config.vm.network :private_network, ip: opts[:ip], netmask: '255.255.255.0'
       config.vm.provision "ansible" do |ansible|
          ansible.playbook = "rabbitmq-cluster.yml"
       end
