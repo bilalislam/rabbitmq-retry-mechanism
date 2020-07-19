@@ -50,3 +50,4 @@ public network : setting for a global ip
 private network : setting private and talk to nodes each-others
 
 Notes : If you use to centos os then open port which is related things of tool in os .
+And don't use minimal os because of port binding and static ip not work properly.
